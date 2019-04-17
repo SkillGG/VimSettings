@@ -13,6 +13,20 @@ filetype plugin on
 set path+=**
 set wildmenu
 
+" Emmet settings
+
+let g:user_emmet_mode='a'
+let g:user_emmet_leader_key=','
+
+" PlugInstaller
+
+call plug#begin( 'c:\Users\dom\vim\plugins\' )
+
+Plug 'https://github.com/pangloss/vim-javascript.git'
+Plug 'tpope/vim-surround'
+
+call plug#end()
+
 " English language
 set langmenu=en_US
 let $LANG = 'en_US'
