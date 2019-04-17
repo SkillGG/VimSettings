@@ -22,7 +22,7 @@ let $LANG = 'en_US'
 colorscheme codedark
 let g:airline_theme = 'codedark'
 
-set guifont=Fira\ Code:h18
+set guifont=Fira\ Code:h16
 
 " no arrow keys
 nnoremap <Left> <nop>
