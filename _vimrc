@@ -24,6 +24,8 @@ call plug#begin( 'c:\Users\dom\vim\plugins\' )
 
 Plug 'https://github.com/pangloss/vim-javascript.git'
 Plug 'tpope/vim-surround'
+Plug 'ap/vim-css-color'
+Plug 'hail2u/vim-css3-syntax'
 
 call plug#end()
 
