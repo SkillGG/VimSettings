@@ -23,7 +23,10 @@ let g:user_emmet_leader_key=','
 call plug#begin( 'c:\Users\dom\vim\plugins\' )
 
 Plug 'https://github.com/pangloss/vim-javascript.git'
+Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-surround'
+Plug 'tomasiser/vim-code-dark'
+Plug 'mattn/emmet-vim'
 Plug 'ap/vim-css-color'
 Plug 'hail2u/vim-css3-syntax'
 
@@ -34,8 +37,8 @@ set langmenu=en_US
 let $LANG = 'en_US'
 
 " Color scheme
-
 colorscheme codedark
+
 let g:airline_theme = 'codedark'
 
 set guifont=Fira\ Code:h16
@@ -62,6 +65,7 @@ let g:airline_left_sep = ''
 let g:airline_left_alt_sep = ''
 let g:airline_right_sep = ''
 let g:airline_right_alt_sep = ''
+let g:airline#extensions#tabline#enabled = 1
 
 " No annoying tab in gVim
 
